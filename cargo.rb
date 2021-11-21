@@ -9,11 +9,11 @@ class Cargo
     @cargo_contents = []
   end
 
-  def add_cargo(item)
+  def add(item)
     self.cargo_contents << item
   end
 
-  def remove_cargo(item)
+  def remove(item)
     self.cargo_contents.remove(item)
   end
 
